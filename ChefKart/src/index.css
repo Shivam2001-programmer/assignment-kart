@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap');
+@import "./Styles/commonClasses.css";
+@import "./Styles/variable.css";
+@import "./Components/common/footer/footer.css";
+
+body {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(transparent, var(--dark-first));
+  border-radius: 6px;
+}

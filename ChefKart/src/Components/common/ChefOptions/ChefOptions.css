@@ -1,0 +1,39 @@
+.chef-options {
+  box-shadow: var(--border-white) 0px -0.5px 0px inset;
+}
+
+.options-wrapper {
+  display: flex;
+}
+
+.chef-item {
+  margin-right: 24px;
+  padding: 12px 12px 20px 12px;
+}
+
+.chef-name {
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 10px;
+  color: var(--inactive-text);
+}
+
+.chef-image-container {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: var(--inactive-color);
+}
+
+.chef-image {
+  height: 20px;
+  width: 20px;
+}
+
+.active-tab{
+  border-bottom: 2px solid var(--chefkart-orange);
+}
+
+.active-tab .chef-name {
+  color: var(--chefkart-orange);
+}

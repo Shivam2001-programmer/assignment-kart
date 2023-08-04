@@ -1,0 +1,117 @@
+/* Common styles for all screen sizes */
+
+.header {
+    width: 100%;
+    max-width: 1000px; /* Set a maximum width for the header */
+    margin: 0 auto; /* Center the header horizontally */
+    display: flex;
+    align-items: center;
+    margin-bottom: 19px;
+    padding: 0 20px; /* Add some padding for better spacing */
+}
+
+.header-right {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    height: 52px;
+   
+}
+
+.header-calendar-time-container {
+    height: 54px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: var(--primary-box-shadow);
+    border: 1px solid var(--border-white);
+    width: 60%;
+    background-color: var(--primary-bg);
+}
+
+.calendar-wrapper {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.calendar-icon-name {
+    display: flex;
+    color: var(--chefkart-gray);
+    margin: auto;
+}
+
+.calendar-icon {
+    color: var(--chefkart-orange);
+    font-size: 20px;
+    margin-right: 10px; /* Reduce the margin for better spacing */
+}
+
+.calendar-time-separator {
+    height: 20px;
+    border: 0.5px solid var(--gray);
+    margin-left: 20px; /* Adjust the margin for better spacing */
+}
+
+.caret-icon {
+    margin-bottom: 5px;
+}
+
+.time-icon-name {
+    display: flex;
+    flex: 2;
+    color: var(--chefkart-gray);
+}
+
+.time-icon {
+    font-size: 20px;
+    color: var(--chefkart-orange);
+    margin: 0px 8px; /* Adjust the margin for better spacing */
+}
+
+/* Additional styles for responsiveness */
+
+@media only screen and (max-width: 600px) {
+    .header-right {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .header-calendar-time-container {
+      width: 100%;
+      margin-left: 34px;
+    }
+  
+    .calendar-time-separator {
+      margin-left: 34px; /* Adjust the margin for better spacing */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .header {
+      flex-direction: column; /* Stack the elements vertically */
+    }
+  
+    .header-right {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .header-calendar-time-container {
+      width: 100%;
+    }
+  
+    .calendar-time-separator {
+      margin-left: 10px; /* Adjust the margin for better spacing */
+    }
+  
+    .calendar-icon {
+      font-size: 13px; /* Adjust the font size for smaller screens */
+    }
+  
+    .time-icon {
+      font-size: 13px; /* Adjust the font size for smaller screens */
+    }
+}

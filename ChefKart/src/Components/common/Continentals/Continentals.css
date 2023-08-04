@@ -1,0 +1,20 @@
+.cont-btns{
+    border-radius: 100px;
+    margin-right: 10px;
+    padding-right: 10px;
+    border-color: var(--inactive-text);
+}
+
+.cont-btns:hover{
+    border-color: var(--chefkart-orange);
+    color: var(--chefkart-orange);
+    background-color: var(--dull-bg-color);
+    font-weight: bold;
+}
+
+.cont-btns:focus{
+    border-color: var(--chefkart-orange);
+    color: var(--chefkart-orange);
+    background-color: var(--dull-bg-color);
+    font-weight: bold;
+}

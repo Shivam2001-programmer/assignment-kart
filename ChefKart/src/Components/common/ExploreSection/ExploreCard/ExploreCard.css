@@ -1,0 +1,14 @@
+.rating-icon, .ing-icon{
+    color: var(--chefkart-orange);
+}
+
+.veg-icon{
+    color: green;
+}
+.fridge-icon{
+    color: blue;
+}
+
+.micro-icon{
+    color: red;
+}

@@ -1,0 +1,15 @@
+#root {
+  --primary-box-shadow: rgb(28 28 28 / 8%) 0px 2px 8px;
+  --border-white: rgb(232, 232, 232);
+  --primary-bg: rgb(255, 255, 255);
+  --chefkart-gray: #828282;
+  --chefkart-orange: #ff961f;
+  --gray: rgb(207, 207, 207);
+  --chefkart-white: #ffffff;
+  --inactive-text: #696969;
+  --inactive-color: #f8f8f8;
+  --dull-bg-color: #fff9f2;
+  --heading-text: #1c1c1c;
+  --collection-shadow: rgb(20 20 20/8%) 0px 3px 12px;
+  --overlay-shadow: rgba(0, 0, 0, 0.5);
+}
